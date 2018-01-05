@@ -1,0 +1,196 @@
+body {
+    background-color: #74AFAD;
+}
+
+header {
+
+    position: static;
+    width: 100vw;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+header nav {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    margin: auto;
+}
+
+
+header nav a {
+    color: #F0F0F2;
+    padding-left: 2px;
+    display: block;
+}
+
+header nav a:hover {
+    color: blue;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 3em;
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    font-family: 'Futura', cursive;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+}
+
+h3 {
+    font-family: 'Futura', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+
+h4 {
+    font-family: 'Futura', sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+
+p {
+    font-family: 'Futura', sans-serif;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+ul {
+    font-family: 'Futura', sans-serif;
+    font-size: 0.9em;
+}
+
+.sectionwrapper {
+    /*parent*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+#logo img {
+    margin: 0 auto;
+    width: 20%;
+    display: block;
+}
+
+.bottom {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+#prototype1 .column {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: auto;
+
+}
+
+#prototype1 {
+    background-color: beige;
+}
+
+#prototype1 h2 {
+    font-family: 'Futura', sans-serif;
+    font-size: 1.2em;
+}
+
+#prototype1 p {
+    font-family: 'Futura', sans-serif;
+    font-size: 1em;
+}
+
+#prototype1 ul {
+    font-family: 'Futura', sans-serif;
+    font-size: 1em;
+}
+
+#udkast1 {
+    background-color: beige;
+    align-content: center;
+    display: block;
+}
+
+
+#features {
+    background-color: floralwhite;
+}
+
+#persona {
+    background-color: azure;
+}
+
+#testvideo {
+    background-color: powderblue;
+    margin: 0 auto;
+}
+
+#testtorsdag {
+    background-color: lightyellow;
+    margin: 5px;
+    padding: 5px;
+}
+
+#benchmark {
+    background-color: azure;
+}
+
+a {
+    font-family: 'Futura', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+#keanet {
+    background-color: aliceblue;
+}
+
+#keachoice {
+    background-color: antiquewhite;
+}
+
+#keaevents {
+    background-color: beige;
+}
+
+.bottom {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: center;
+}
+
+#styletile img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#nabc p {
+    text-align: justify;
+    margin: 10px;
+}
